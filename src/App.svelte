@@ -25,7 +25,7 @@
     }
 
     Object.keys(rgb).forEach(key => {
-      rgb[key] = ~~(rgb[key] / count); // https://stackoverflow.com/questions/5971645/what-is-the-double-tilde-operator-in-javascript
+      rgb[key] = ~~(rgb[key] / count); // TODO: läs på om bitshifting: https://stackoverflow.com/questions/5971645/what-is-the-double-tilde-operator-in-javascript
     });
 
     primary = `rgb(${rgb.r}, ${rgb.g}, ${rgb.b})`;
